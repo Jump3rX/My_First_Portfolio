@@ -1,6 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
+  background: linear-gradient(135deg, #e8f5e9, #ffffff);
+  background-size: cover;
 }
 main {
   display: flex;
@@ -14,4 +16,28 @@ article {
 aside {
   flex: 1;
   overflow-y: auto;
+}
+h1 {
+  font-size: 3em;
+  background: linear-gradient(to right, #ff9a8b, #ff6a88, #ff99ac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  font-size: 2.5em;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h3 {
+  font-size: 2em;
+  background: linear-gradient(to right, #ff0080, #ffeb00, #00c0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer p {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
